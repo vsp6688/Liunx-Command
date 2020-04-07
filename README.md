@@ -1,5 +1,5 @@
-# Liunx-Command
-### Ubuntu 18.04 统查看服务列表的指令
+## Liunx-Command
+#### Ubuntu 18.04 统查看服务列表的指令
 ```
 Ubuntu系统查看服务列表的指令
 service --status-all
@@ -25,7 +25,7 @@ show：列出 unit 的配置。
 mask：注销 unit，注销后你就无法启动这个 unit 了。
 unmask：取消对 unit 的注销。
 ```
-### 如何确定Ubuntu中是否安装了软件包
+#### 如何确定Ubuntu中是否安装了软件包
 
 ```
 要了解Ubuntu中是否已经安装了特定的软件包，我们可以使用  dpkg软件包管理器。
@@ -45,4 +45,4 @@ ii  nano                       2.5.3-2ubuntu1     amd64              small, frie
 
 dpkg-query: no packages found matching nano
 ```
-### 您还可以使用```dpkg –get-selections```获取所有当前已安装软件包的列表。
+您还可以使用```dpkg –get-selections```获取所有当前已安装软件包的列表。
