@@ -45,4 +45,5 @@ ii  nano                       2.5.3-2ubuntu1     amd64              small, frie
 
 dpkg-query: no packages found matching nano
 ```
-您还可以使用```dpkg –get-selections```获取所有当前已安装软件包的列表。
+您还可以使用```dpkg --get-selections```获取所有当前已安装软件包的列表。
+
